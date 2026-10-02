@@ -1,169 +1,41 @@
 <!DOCTYPE html>
-2
 <html>
-3
- 
-4
 <head>
-5
-<meta charset="utf-8">
-6
-<title>SpeakerBoXXX Bowling Analytics</title>
-7
- 
-8
-<script src.jsdelivr.net/npm/chart.jsscript>
-9
- 
-10
-<link.css
-11
+    <meta charset="utf-8">
+    <title>SpeakerBoXXX Bowling Analytics</title>
+    <link.css
 </head>
-12
- 
-13
+
 <body>
-14
- 
-15
-<h1>🎳 SpeakerBoXXX Bowling Analytics</h1>
-16
- 
-17
-<nav>
-18
-<ndex.htmlHome</a> |
-19
-<a href="weekly.html">Week/a> |
-20
-<a href="players.html"> |
-21
-<a href="records.html">Records</ <a href="stats.html">Stats PDF</a>
-22
-</nav>
-23
- 
-24
-<div class="card">
-25
-<h2>Season Snapshot</h2>
-26
-<p>2026-2027 Season • Week 1 Loaded</p>
-27
-</div>
-28
- 
-29
-<div class="card">
-30
-<table id="tbl"></table>
-31
-</div>
-32
- 
-33
-<div class="card">
-34
-<canvas id="avg"></canvas>
-35
-</div>
-36
- 
-37
-<script>
-38
-fetch('data.json')
-39
-.then(response => response.json())
-40
-.then(data => {
-41
- 
-42
-let tableHtml =
-43
-'<tr>' +
-44
-'<th>Bowler</th>' +
-45
-'<th>Average</th>' +
-46
-'<th>Handicap</th>' +
-47
-'<th>Strikes/Game</th>' +
-48
-'<th>Spares/Game</th>' +
-49
-'</tr>';
-50
- 
-51
-data.forEach(bowler => {
-52
- 
-53
-tableHtml += `
-54
-<tr>
-55
-<td>${bowler.name}</td>
-56
-<td>${Number(bowler.average).toFixed(1)}</td>
-57
-<td>${bowler.handicap}</td>
-58
-<td>${Number(bowler.strikes).toFixed(2)}</td>
-59
-<td>${Number(bowler.spares).toFixed(2)}</td>
-60
-</tr>
-61
-`;
-62
-});
-63
- 
-64
-document.getElementById('tbl').innerHTML = tableHtml;
-65
- 
-66
-new Chart(
-67
-document.getElementById('avg'),
-68
-{
-69
-type: 'bar',
-70
-data: {
-71
-labels: data.map(x => x.name),
-72
-datasets: [{
-73
-label: 'Average',
-74
-data: data.map(x => x.average)
-75
-}]
-76
-}
-77
-}
-78
-);
-79
- 
-80
-});
-81
-</script>
-82
- 
-83
+
+    <h1>🎳 SpeakerBoXXX Bowling Analytics</h1>
+
+    <nav>
+        <a href="index.html">Home    <a href="weekly.html">Week 1  |
+        <a href="players.html">Players</a>records.htmlRecords</a> |
+        <a href="stats.html">Stats PDF</a>
+    </nav>
+
+    <div class="card">
+        <h2>Season Snapshot</h2>
+
+        <ul>
+            <li>Season: 2026-2027</li>
+            <li>Week Loaded: 1</li>
+            <li>Team: SpeakerBoXXX</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Website Sections</h2>
+
+        <ul>
+            <li>Weekly Results</li>
+            <li>Player Statistics</li>
+            <li>Records & Milestones</li>
+            <li>Stats Sheet PDF</li>
+        </ul>
+    </div>
+
 </body>
-84
- 
-85
 </html>
