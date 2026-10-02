@@ -1,50 +1,50 @@
 [
   {
     "name": "Jake",
-    "games": 51,
-    "average": 170.50980392156862,
-    "handicap": 23,
-    "strikes_per_game": 4.196078431372549,
-    "spares_per_game": 3.2745098039215685
+    "games": 3,
+    "average": 167.66666666666666,
+    "handicap": 25,
+    "strikes": 3.6666666666666665,
+    "spares": 3.3333333333333335
   },
   {
-    "name": "Kelly",
-    "games": 32,
-    "average": 142.34375,
-    "handicap": 46,
-    "strikes_per_game": 2.90625,
-    "spares_per_game": 2.875
+    "name": "Noah",
+    "games": 0,
+    "average": 0,
+    "handicap": 0,
+    "strikes": 0,
+    "spares": 0
   },
   {
     "name": "Nick",
-    "games": 27,
-    "average": 139.5185185185185,
-    "handicap": 48,
-    "strikes_per_game": 2.814814814814815,
-    "spares_per_game": 2.814814814814815
+    "games": 3,
+    "average": 144.33333333333334,
+    "handicap": 44,
+    "strikes": 3.3333333333333335,
+    "spares": 2.6666666666666665
   },
   {
     "name": "Steve",
-    "games": 33,
-    "average": 141.06060606060606,
-    "handicap": 47,
-    "strikes_per_game": 3,
-    "spares_per_game": 2.4242424242424243
+    "games": 3,
+    "average": 142.66666666666666,
+    "handicap": 45,
+    "strikes": 2,
+    "spares": 3
   },
   {
     "name": "Tom",
-    "games": 39,
-    "average": 171.43589743589743,
-    "handicap": 22,
-    "strikes_per_game": 4.538461538461538,
-    "spares_per_game": 2.358974358974359
+    "games": 0,
+    "average": 0,
+    "handicap": 0,
+    "strikes": 0,
+    "spares": 0
   },
   {
     "name": "Trav",
     "games": 0,
     "average": 0,
     "handicap": 0,
-    "strikes_per_game": 0,
-    "spares_per_game": 0
+    "strikes": 0,
+    "spares": 0
   }
 ]
