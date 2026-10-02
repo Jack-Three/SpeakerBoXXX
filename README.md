@@ -1,1 +1,1 @@
-Upload these files to GitHub and replace existing files. Keep your existing StatsSheet.pdf in the repository.
+Upload all files to GitHub and replace existing versions. Keep StatsSheet.pdf in repository root.

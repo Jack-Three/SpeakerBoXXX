@@ -1,11 +1,13 @@
 
-body{font-family:Segoe UI,Arial,sans-serif;background:#0f172a;color:#e5e7eb;margin:0}
-header{background:#172554;padding:20px}
-h1,h2{margin-top:0}
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#0f172a;color:#e5e7eb}
+header{background:#172554;padding:20px;display:flex;align-items:center;gap:20px}
+.logo{width:110px;height:110px;border-radius:50%;border:4px solid white;object-fit:cover}
 nav{background:#1e3a8a;padding:12px}
-nav a{color:white;text-decoration:none;margin-right:15px;font-weight:bold}
+nav a{color:white;text-decoration:none;margin-right:18px;font-weight:600}
 .container{max-width:1200px;margin:auto;padding:20px}
-.card{background:#1e293b;border-radius:12px;padding:20px;margin-bottom:20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px}
-.stat{font-size:28px;font-weight:bold;color:#60a5fa}
+.card{background:#1e293b;padding:20px;border-radius:12px;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:15px}
+.stat{font-size:30px;color:#60a5fa;font-weight:bold}
+.pb{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.pbcard{background:#334155;padding:15px;border-radius:10px}
 iframe{width:100%;height:900px;border:none;background:white}
