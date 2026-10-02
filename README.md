@@ -1,1 +1,1 @@
-Replace the existing website files with these files in GitHub and commit changes.
+Upload these files to GitHub and replace existing files. Keep your existing StatsSheet.pdf in the repository.
