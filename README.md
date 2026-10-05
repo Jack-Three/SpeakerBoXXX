@@ -1,1 +1,1 @@
-Upload and replace existing website files. Keep StatsSheet.pdf in repo.
+Upload and replace existing files. Keep StatsSheet.pdf in repository.
