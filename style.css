@@ -1,12 +1,11 @@
 /* =======================================================
    SPEAKERBOXXX BOWLING ANALYTICS
-   V6.2 MASTER STYLESHEET
    ======================================================= */
 
 body {
     margin: 0;
     background: #0f172a;
-    color: white;
+    color: #ffffff;
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
@@ -27,9 +26,7 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 24px;
-
     padding: 32px;
-
     background: linear-gradient(
         135deg,
         #172554,
@@ -40,10 +37,8 @@ a:hover {
 .logo {
     width: 120px;
     height: 120px;
-
     border-radius: 50%;
     border: 4px solid white;
-
     object-fit: cover;
 }
 
@@ -62,12 +57,11 @@ a:hover {
 }
 
 /* =======================================================
-   NAVIGATION
+   NAVBAR
    ======================================================= */
 
 .navbar {
     background: #1e3a8a;
-
     padding: 15px 20px;
 
     display: flex;
@@ -78,7 +72,6 @@ a:hover {
 .navbar a {
     color: white;
     font-weight: 600;
-    text-decoration: none;
 }
 
 .navbar a:hover {
@@ -86,7 +79,7 @@ a:hover {
 }
 
 /* =======================================================
-   PAGE CONTAINER
+   LAYOUT
    ======================================================= */
 
 .container {
@@ -95,84 +88,30 @@ a:hover {
     padding: 24px;
 }
 
-/* =======================================================
-   GENERAL CARDS
-   ======================================================= */
-
 .card {
     background: #1e293b;
-
     padding: 20px;
     border-radius: 14px;
-
     margin-bottom: 20px;
 }
 
 /* =======================================================
-   CAREER LEADER GRID
+   LEADER CARDS
    ======================================================= */
 
-.record-grid {
+.stat-grid {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-
     gap: 15px;
 
     margin-bottom: 25px;
 }
 
-/* =======================================================
-   PLAYER GRID
-   ======================================================= */
-
-.player-grid {
-    display: grid;
-
-    grid-template-columns: repeat(6, 1fr);
-
-    gap: 15px;
-
-    margin-bottom: 25px;
-}
-
-/* =======================================================
-   CARD TYPES
-   ======================================================= */
-
-.record-card,
-.player-card,
 .stat-card {
     background: #334155;
-
-    padding: 20px;
     border-radius: 12px;
+    padding: 20px;
 }
-
-.player-card {
-    display: block;
-
-    color: white;
-    text-decoration: none;
-
-    transition: all .2s ease;
-}
-
-.player-card:hover {
-    background: #475569;
-    transform: translateY(-3px);
-}
-
-.player-card h3,
-.record-card h3,
-.stat-card h3 {
-    margin-top: 0;
-    color: #93c5fd;
-}
-
-/* =======================================================
-   STAT CARDS
-   ======================================================= */
 
 .stat-number {
     font-size: 42px;
@@ -185,4 +124,176 @@ a:hover {
 }
 
 /* =======================================================
-  
+   RECORDS / ANALYTICS
+   ======================================================= */
+
+.record-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.record-card {
+    background: #334155;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.record-card h3 {
+    margin-top: 0;
+    color: #93c5fd;
+}
+
+/* =======================================================
+   PLAYER CARDS
+   ======================================================= */
+
+.player-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.player-card {
+    display: block;
+    background: #334155;
+    border-radius: 12px;
+    padding: 20px;
+
+    color: white;
+    text-decoration: none;
+
+    transition: all .2s ease;
+}
+
+.player-card:hover {
+    background: #475569;
+    transform: translateY(-3px);
+}
+
+.player-card h3 {
+    margin-top: 0;
+    color: #93c5fd;
+}
+
+/* =======================================================
+   LEADERBOARD TABLES
+   ======================================================= */
+
+.leaderboard {
+    margin-top: 10px;
+}
+
+.leader-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 0;
+
+    border-bottom: 1px solid rgba(
+        255,
+        255,
+        255,
+        .08
+    );
+}
+
+.leader-row:last-child {
+    border-bottom: none;
+}
+
+.leader-name {
+    text-align: left;
+}
+
+.leader-value {
+    text-align: right;
+    font-weight: 700;
+    color: #60a5fa;
+}
+
+/* =======================================================
+   PDF VIEWER
+   ======================================================= */
+
+iframe {
+    width: 100%;
+    height: 2200px;
+
+    border: none;
+    background: white;
+
+    display: block;
+}
+
+/* =======================================================
+   BADGES
+   ======================================================= */
+
+.badge {
+    display: inline-block;
+
+    padding: 4px 10px;
+
+    border-radius: 12px;
+
+    background: #1e3a8a;
+    color: white;
+}
+
+/* =======================================================
+   TABLET
+   ======================================================= */
+
+@media (max-width: 1200px) {
+
+    .player-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .record-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stat-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* =======================================================
+   MOBILE
+   ======================================================= */
+
+@media (max-width: 700px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .player-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .record-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-grid {
+        grid-template-columns: 1fr;
+    }
+
+    iframe {
+        height: 1400px;
+    }
+
+}
