@@ -1,1 +1,188 @@
-body{margin:0;background:#0f172a;color:#fff;font-family:Segoe UI,Arial,sans-serif}.hero{display:flex;align-items:center;gap:24px;padding:32px;background:linear-gradient(135deg,#172554,#1e3a8a)}.logo{width:120px;height:120px;border-radius:50%;border:4px solid #fff;object-fit:cover}.navbar{background:#1e3a8a;padding:15px;display:flex;gap:20px;flex-wrap:wrap}.navbar a{color:#fff;text-decoration:none}.container{max-width:1500px;margin:auto;padding:24px}.card,.record-card,.player-card{background:#334155;border-radius:12px;padding:20px}.card{background:#1e293b;margin-bottom:20px}.record-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.player-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:15px}.leader-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08)}.leader-value{color:#60a5fa;font-weight:bold}.player-card{display:block;color:#fff;text-decoration:none}@media(max-width:1200px){.player-grid{grid-template-columns:repeat(3,1fr)}.record-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.player-grid{grid-template-columns:repeat(2,1fr)}.record-grid{grid-template-columns:1fr}}
+/* =======================================================
+   SPEAKERBOXXX BOWLING ANALYTICS
+   V6.2 MASTER STYLESHEET
+   ======================================================= */
+
+body {
+    margin: 0;
+    background: #0f172a;
+    color: white;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+a {
+    color: #93c5fd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =======================================================
+   HERO
+   ======================================================= */
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    padding: 32px;
+
+    background: linear-gradient(
+        135deg,
+        #172554,
+        #1e3a8a
+    );
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    border: 4px solid white;
+
+    object-fit: cover;
+}
+
+.hero-text h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero-text h2 {
+    margin: 6px 0;
+    color: #93c5fd;
+}
+
+.hero-text p {
+    color: #dbeafe;
+}
+
+/* =======================================================
+   NAVIGATION
+   ======================================================= */
+
+.navbar {
+    background: #1e3a8a;
+
+    padding: 15px 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #93c5fd;
+}
+
+/* =======================================================
+   PAGE CONTAINER
+   ======================================================= */
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 24px;
+}
+
+/* =======================================================
+   GENERAL CARDS
+   ======================================================= */
+
+.card {
+    background: #1e293b;
+
+    padding: 20px;
+    border-radius: 14px;
+
+    margin-bottom: 20px;
+}
+
+/* =======================================================
+   CAREER LEADER GRID
+   ======================================================= */
+
+.record-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+/* =======================================================
+   PLAYER GRID
+   ======================================================= */
+
+.player-grid {
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+/* =======================================================
+   CARD TYPES
+   ======================================================= */
+
+.record-card,
+.player-card,
+.stat-card {
+    background: #334155;
+
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.player-card {
+    display: block;
+
+    color: white;
+    text-decoration: none;
+
+    transition: all .2s ease;
+}
+
+.player-card:hover {
+    background: #475569;
+    transform: translateY(-3px);
+}
+
+.player-card h3,
+.record-card h3,
+.stat-card h3 {
+    margin-top: 0;
+    color: #93c5fd;
+}
+
+/* =======================================================
+   STAT CARDS
+   ======================================================= */
+
+.stat-number {
+    font-size: 42px;
+    font-weight: bold;
+    color: #60a5fa;
+}
+
+.stat-label {
+    margin-top: 10px;
+}
+
+/* =======================================================
+  
