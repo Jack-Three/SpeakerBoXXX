@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SpeakerBoXXX Hall of Fame</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+    <img src="logo.png"
+         class="logo"
+         alt="SpeakerBoXXX Logo">
+
+    <div class="hero-text">
+
+        <h1>🏆 Hall of Fame</h1>
+
+        <h2>Career Statistics 2023-2026</h2>
+
+        <p>
+            SpeakerBoXXX Career Records
+        </p>
+
+    </div>
+
+</header>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="records.html">Hall of Fame</a>
+    <a href="players.html">Players</a>
+    <a href="analytics.html">Analytics</a>
+    <a href="weekly-report.html">Weekly Report</a>
+    <a href="stats.html">The Spreadsheet</a>
+</nav>
+
+<div class="container">
+
+    <h2>Career Records</h2>
+
+    <div class="record-grid">
+
+        <div class="record-card">
+
+            <h3>🏆 High Game</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Trav</span>
+                    <span class="leader-value">279</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Jake</span>
+                    <span class="leader-value">275</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Jason</span>
+                    <span class="leader-value">204</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Nick</span>
+                    <span class="leader-value">202</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Steve</span>
+                    <span class="leader-value">201</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>🏆 High Series</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Trav</span>
+                    <span class="leader-value">727</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Jake</span>
+                    <span class="leader-value">703</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Jason</span>
+                    <span class="leader-value">508</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Steve</span>
+                    <span class="leader-value">507</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Nick</span>
+                    <span class="leader-value">500</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>🎳 200 Game Club</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Jake</span>
+                    <span class="leader-value">27</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Trav</span>
+                    <span class="leader-value">22</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Nick</span>
+                    <span class="leader-value">1</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Steve</span>
+                    <span class="leader-value">1</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Jason</span>
+                    <span class="leader-value">1</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>🏅 500 Series Club</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Jake</span>
+                    <span class="leader-value">34</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Trav</span>
+                    <span class="leader-value">17</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Steve</span>
+                    <span class="leader-value">2</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Nick</span>
+                    <span class="leader-value">1</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Jason</span>
+                    <span class="leader-value">1</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>🔥 600 Series Club</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Jake</span>
+                    <span class="leader-value">3</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Trav</span>
+                    <span class="leader-value">3</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>👑 700 Series Club</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Jake</span>
+                    <span class="leader-value">1</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Trav</span>
+                    <span class="leader-value">1</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>🎳 Games Bowled</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Jake</span>
+                    <span class="leader-value">147</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Trav</span>
+                    <span class="leader-value">126</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Nick</span>
+                    <span class="leader-value">72</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Steve</span>
+                    <span class="leader-value">72</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Jason</span>
+                    <span class="leader-value">36</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+(function(){
+ var boards={"High Game":"highGame","High Series":"highSeries","200 Game Club":"games200","500 Series Club":"series500","600 Series Club":"series600","700 Series Club":"series700","Games Bowled":"games"};
+ var error=document.createElement('p');error.id='career-load-error';error.setAttribute('role','alert');error.hidden=true;error.style.color='#fecaca';error.textContent='Career records could not be updated from data/career.json. Showing the embedded fallback figures.';document.querySelector('.container').prepend(error);
+ fetch('./data/career.json').then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(function(data){if(!data||!Array.isArray(data.players))throw new Error('Invalid career data');
+ document.querySelectorAll('.record-card').forEach(function(card){var h=card.querySelector('h3'),board=card.querySelector('.leaderboard');if(!h||!board)return;var title=h.textContent.replace(/^[^A-Za-z0-9]+/,'').trim(),field=boards[title];if(!field)return;var cap=data.players.length;var list=data.players.slice().filter(function(p){return Number.isFinite(Number(p[field]))&&(field!=='series600'&&field!=='series700'||Number(p[field])>0)}).sort(function(a,b){return Number(b[field])-Number(a[field])}).slice(0,Math.max(cap,1));board.innerHTML=list.map(function(p){return '<div class="leader-row"><span class="leader-name"></span><span class="leader-value"></span></div>'}).join('');board.querySelectorAll('.leader-row').forEach(function(row,i){row.querySelector('.leader-name').textContent=list[i].name;row.querySelector('.leader-value').textContent=list[i][field]});
+ });
+ }).catch(function(e){error.hidden=false;console.error('Career records load failed:',e)});
+})();
+</script>
+</body>
+</html>

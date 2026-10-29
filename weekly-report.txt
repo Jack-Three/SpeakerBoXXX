@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Report | SpeakerBoXXX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+    <img src="logo.png" class="logo" alt="SpeakerBoXXX Logo">
+    <div class="hero-text">
+        <h1>📊 Week 3 Report</h1>
+        <h2>SpeakerBoXXX Weekly Report</h2>
+        <p>Week 3 results, awards and individual reports.</p>
+    </div>
+</header>
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="records.html">Hall of Fame</a>
+    <a href="players.html">Players</a>
+    <a href="analytics.html">Analytics</a>
+    <a href="weekly-report.html">Weekly Report</a>
+    <a href="stats.html">The Spreadsheet</a>
+</nav>
+<div class="container">
+
+    <h1>📊 Week 3 Report</h1>
+
+    <div class="card">
+
+        <h2>🎳 Week 3 Lineup</h2>
+
+        <div class="leaderboard">
+
+            <div class="leader-row">
+                <span class="leader-name">Position 1 - Jake</span>
+                <span class="leader-value">523</span>
+            </div>
+
+            <div class="leader-row">
+                <span class="leader-name">Position 2 - Noah</span>
+                <span class="leader-value">669</span>
+            </div>
+
+            <div class="leader-row">
+                <span class="leader-name">Position 3 - Trav</span>
+                <span class="leader-value">501</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h2>🏆 Weekly Awards</h2>
+
+    <div class="record-grid">
+
+        <div class="record-card">
+
+            <h3>🥇 Top Series</h3>
+
+            <p>
+                <strong>Noah</strong><br>
+                669 Series
+            </p>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>🎯 Most Consistent Bowler</h3>
+
+            <p>
+                <strong>Noah</strong><br>
+                Games of 222, 225, and 222.<br>
+                Only a 3-pin difference between highest
+                and lowest game.
+            </p>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>💥 Strike Machine</h3>
+
+            <p>
+                <strong>Noah</strong><br>
+                Multiple strike strings and the highest
+                game and series of the night.
+            </p>
+
+        </div>
+
+    </div>
+
+    <h2>📋 Individual Reports</h2>
+
+    <div class="record-grid">
+
+        <div class="record-card">
+
+            <h3>🎳 Jake</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 1</span>
+                    <span class="leader-value">209</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 2</span>
+                    <span class="leader-value">156</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 3</span>
+                    <span class="leader-value">158</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Series</span>
+                    <span class="leader-value">523</span>
+                </div>
+
+            </div>
+
+            <br>
+
+            <strong>Strengths</strong>
+
+            <ul>
+                <li>Opened with a 200+ game.</li>
+                <li>Finished above the 500 mark.</li>
+                <li>Several strong strike strings.</li>
+            </ul>
+
+            <strong>Focus Next Week</strong>
+
+            <ul>
+                <li>Maintain Game 1 pace for all three games.</li>
+                <li>Increase spare conversion consistency.</li>
+            </ul>
+
+            <strong>Coach's Notes</strong>
+
+            <p>
+                A strong opening game showed the scoring
+                ceiling. Extending that pace through the
+                entire set could push future series well
+                beyond 550.
+            </p>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>🎳 Noah</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 1</span>
+                    <span class="leader-value">222</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 2</span>
+                    <span class="leader-value">225</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 3</span>
+                    <span class="leader-value">222</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Series</span>
+                    <span class="leader-value">669</span>
+                </div>
+
+            </div>
+
+            <br>
+
+            <strong>Strengths</strong>
+
+            <ul>
+                <li>Elite consistency.</li>
+                <li>Excellent strike production.</li>
+                <li>Strong spare conversion.</li>
+                <li>Very few wasted frames.</li>
+            </ul>
+
+            <strong>Focus Next Week</strong>
+
+            <ul>
+                <li>Repeat the same execution.</li>
+                <li>Continue attacking the pocket.</li>
+            </ul>
+
+            <strong>Coach's Notes</strong>
+
+            <p>
+                One of the strongest individual performances
+                of the season. Three straight 220+ games and
+                a 669 series is a benchmark night.
+            </p>
+
+        </div>
+
+        <div class="record-card">
+
+            <h3>🎳 Trav</h3>
+
+            <div class="leaderboard">
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 1</span>
+                    <span class="leader-value">173</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 2</span>
+                    <span class="leader-value">190</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Game 3</span>
+                    <span class="leader-value">138</span>
+                </div>
+
+                <div class="leader-row">
+                    <span class="leader-name">Series</span>
+                    <span class="leader-value">501</span>
+                </div>
+
+            </div>
+
+            <br>
+
+            <strong>Strengths</strong>
+
+            <ul>
+                <li>Strong first two games.</li>
+                <li>Reached the 500-series mark.</li>
+                <li>Several quality spare conversions.</li>
+            </ul>
+
+            <strong>Focus Next Week</strong>
+
+            <ul>
+                <li>Maintain pace through Game 3.</li>
+                <li>Reduce late-set open frames.</li>
+            </ul>
+
+            <strong>Coach's Notes</strong>
+
+            <p>
+                A solid night overall. The first two games
+                showed scoring potential that can carry into
+                even bigger series with a stronger finish.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>📈 Team Summary</h2>
+
+        <div class="leaderboard">
+
+            <div class="leader-row">
+                <span class="leader-name">Team Total</span>
+                <span class="leader-value">1,693</span>
+            </div>
+
+            <div class="leader-row">
+                <span class="leader-name">Average Series</span>
+                <span class="leader-value">564.3</span>
+            </div>
+
+            <div class="leader-row">
+                <span class="leader-name">Team MVP</span>
+                <span class="leader-value">Noah</span>
+            </div>
+
+            <div class="leader-row">
+                <span class="leader-name">High Game</span>
+                <span class="leader-value">225 (Noah)</span>
+            </div>
+
+            <div class="leader-row">
+                <span class="leader-name">High Series</span>
+                <span class="leader-value">669 (Noah)</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🎳 Weekly Milestones</h2>
+
+        <ul>
+            <li>✅ Noah - 600+ Series (669)</li>
+            <li>✅ Jake - 500+ Series (523)</li>
+            <li>✅ Trav - 500+ Series (501)</li>
+            <li>✅ Team Total - 1,693 Pins</li>
+        </ul>
+
+    </div>
+
+    <div class="card">
+
+        <h2>📊 Week 2 vs Week 3</h2>
+
+        <div class="leaderboard">
+
+            <div class="leader-row">
+                <span class="leader-name">Week 2 Team Total</span>
+                <span class="leader-value">1,191</span>
+            </div>
+
+            <div class="leader-row">
+                <span class="leader-name">Week 3 Team Total</span>
+                <span class="leader-value">1,693</span>
+            </div>
+
+            <div class="leader-row">
+                <span class="leader-name">Improvement</span>
+                <span class="leader-value">+502</span>
+            </div>
+
+        </div>
+
+        <p>
+            The biggest story of Week 3 was Noah's remarkable
+            669 series. Combined with Jake and Trav both
+            clearing the 500 mark, the team produced its
+            strongest week of the season so far.
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Players</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+    <img src="logo.png"
+         class="logo"
+         alt="SpeakerBoXXX Logo">
+
+    <div class="hero-text">
+
+        <h1>🎳 Players</h1>
+
+        <h2>Current 2026-27 Roster</h2>
+
+        <p>
+            Active SpeakerBoXXX bowlers.
+        </p>
+
+    </div>
+
+</header>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="records.html">Hall of Fame</a>
+    <a href="players.html">Players</a>
+    <a href="analytics.html">Analytics</a>
+    <a href="weekly-report.html">Weekly Report</a>
+    <a href="stats.html">The Spreadsheet</a>
+</nav>
+
+<div class="container">
+
+    <div class="player-grid">
+
+        <a class="player-card" href="jake.html">
+            <h3>Jake</h3>
+            High Game: 275<br>
+            High Series: 703
+        </a>
+
+        <a class="player-card" href="nick.html">
+            <h3>Nick</h3>
+            High Game: 202<br>
+            High Series: 500
+        </a>
+
+        <a class="player-card" href="noah.html">
+            <h3>Noah</h3>
+            High Game: 245<br>
+            High Series: 669
+        </a>
+
+        <a class="player-card" href="steve.html">
+            <h3>Steve</h3>
+            High Game: 201<br>
+            High Series: 507
+        </a>
+
+        <a class="player-card" href="tom.html">
+            <h3>Tom</h3>
+            High Game: 192<br>
+            High Series: 492
+        </a>
+
+        <a class="player-card" href="trav.html">
+            <h3>Trav</h3>
+            High Game: 279<br>
+            High Series: 727
+        </a>
+
+    </div>
+
+</div>
+
+<script>
+(function(){fetch('./data/career.json').then(function(r){if(!r.ok)throw new Error('career data unavailable');return r.json()}).then(function(d){document.querySelectorAll('.player-card').forEach(function(c){var n=c.querySelector('h3').textContent.trim(),p=d.players.find(function(x){return x.name===n});if(p)c.innerHTML='<h3>'+n+'</h3>High Game: '+p.highGame+'<br>High Series: '+p.highSeries})}).catch(function(e){var n=document.createElement('p');n.setAttribute('role','alert');n.style.color='#fecaca';n.textContent='Career data could not be loaded from data/career.json; showing embedded fallback values.';document.querySelector('.container').prepend(n);console.error(e)})})();
+</script>
+</body>
+</html>

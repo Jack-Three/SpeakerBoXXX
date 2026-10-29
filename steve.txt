@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Steve | SpeakerBoXXX Bowling Analytics</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="hero">
+<img alt="SpeakerBoXXX Logo" class="logo" src="logo.png"/>
+<div class="hero-text">
+<h1>🎳 Steve</h1>
+<h2>SpeakerBoXXX Active Roster</h2>
+<p>
+            Career Statistics &amp; Achievements
+        </p>
+</div>
+</header>
+<nav class="navbar">
+<a href="index.html">Home</a>
+<a href="records.html">Hall of Fame</a>
+<a href="players.html">Players</a>
+<a href="analytics.html">Analytics</a>
+<a href="weekly-report.html">Weekly Report</a>
+<a href="stats.html">The Spreadsheet</a>
+</nav>
+<div class="container">
+<h2>Career Highlights</h2>
+<div class="record-grid">
+<div class="record-card">
+<h3>Games Bowled</h3>
+<div class="stat-number" id="games">72</div>
+</div>
+<div class="record-card">
+<h3>High Game</h3>
+<div class="stat-number" id="highGame">201</div>
+</div>
+<div class="record-card">
+<h3>High Series</h3>
+<div class="stat-number" id="highSeries">508</div>
+</div>
+<div class="record-card">
+<h3>200 Games</h3>
+<div class="stat-number" id="games200">1</div>
+</div>
+<div class="record-card"><h3>🏆 Achievement Clubs</h3><div class="leaderboard"><div class="leader-row"><span class="leader-name">200 Game Club</span><span class="leader-value" id="club200">1</span></div><div class="leader-row"><span class="leader-name">500 Series Club</span><span class="leader-value" id="club500">4</span></div><div class="leader-row"><span class="leader-name">600 Series Club</span><span class="leader-value" id="club600">0</span></div><div class="leader-row"><span class="leader-name">700 Series Club</span><span class="leader-value" id="club700">0</span></div></div></div></div>
+<div class="record-grid">
+<div class="record-card">
+<h3>💥 Performance Metrics</h3>
+<div class="leaderboard">
+<div class="leader-row">
+<span class="leader-name">
+                        Strike / Game
+                    </span>
+<span class="leader-value" id="strikePerGame">4.04</span>
+</div>
+<div class="leader-row">
+<span class="leader-name">
+</span></div><div class="leader-row"><span class="leader-name">Spare / Game</span><span class="leader-value" id="sparePerGame">5.31</span></div><div class="leader-row"><span class="leader-name">Career Strikes</span><span class="leader-value" id="strikes">291</span></div><div class="leader-row"><span class="leader-name">Career Spares</span><span class="leader-value" id="spares">382</span></div></div></div></div></div><script>fetch('./data/career.json').then(r=>r.json()).then(data=>{const player=data.players.find(p=>p.name.toLowerCase()==='steve');if(!player)return;const fields={games:'games',highGame:'highGame',highSeries:'highSeries',games200:'games200',strikePerGame:'strikePerGame',sparePerGame:'sparePerGame',strikes:'strikes',spares:'spares',club200:'games200',club500:'series500',club600:'series600',club700:'series700'};for(const [id,key] of Object.entries(fields)){const el=document.getElementById(id);if(el)el.textContent=player[key]}}).catch(()=>{});</script></body></html>
