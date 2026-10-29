@@ -56,7 +56,8 @@
 
         <a class="player-card" href="noah.html">
             <h3>Noah</h3>
-            Statistics Pending
+            High Game: 245<br>
+            High Series: 669
         </a>
 
         <a class="player-card" href="steve.html">
@@ -81,5 +82,8 @@
 
 </div>
 
+<script>
+(function(){fetch('./data/career.json').then(function(r){if(!r.ok)throw new Error('career data unavailable');return r.json()}).then(function(d){document.querySelectorAll('.player-card').forEach(function(c){var n=c.querySelector('h3').textContent.trim(),p=d.players.find(function(x){return x.name===n});if(p)c.innerHTML='<h3>'+n+'</h3>High Game: '+p.highGame+'<br>High Series: '+p.highSeries})}).catch(function(e){console.error(e)})})();
+</script>
 </body>
 </html>

@@ -68,7 +68,7 @@
             <h3>Games Bowled</h3>
 
             <div class="stat-number">
-                —
+                <span class="noah-stat">6</span>
             </div>
 
         </div>
@@ -78,7 +78,7 @@
             <h3>High Game</h3>
 
             <div class="stat-number">
-                —
+                <span class="noah-stat">245</span>
             </div>
 
         </div>
@@ -88,7 +88,7 @@
             <h3>High Series</h3>
 
             <div class="stat-number">
-                —
+                <span class="noah-stat">669</span>
             </div>
 
         </div>
@@ -98,7 +98,7 @@
             <h3>200 Games</h3>
 
             <div class="stat-number">
-                —
+                <span class="noah-stat">5</span>
             </div>
 
         </div>
@@ -153,5 +153,8 @@
 
 </div>
 
+<script>
+(function(){fetch('./data/career.json').then(function(r){if(!r.ok)throw new Error('career data unavailable');return r.json()}).then(function(d){var p=d.players.find(function(x){return x.name==='Noah'});if(!p)return;var v=[p.games,p.highGame,p.highSeries,p.games200];document.querySelectorAll('.noah-stat').forEach(function(el,i){el.textContent=v[i]})}).catch(function(e){console.error(e)})})();
+</script>
 </body>
 </html>
