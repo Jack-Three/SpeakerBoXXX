@@ -78,7 +78,7 @@
             <h3>High Game</h3>
 
             <div class="stat-number">
-                <span class="noah-stat">245</span>
+                <span class="noah-stat">245</span><script>(function(){function update(){fetch('./data/career.json').then(function(r){if(!r.ok)throw Error('Career data unavailable');return r.json()}).then(function(d){var p=d.players.find(function(x){return x.name==='Noah'});if(!p)throw Error('Noah missing from career data');var h=Array.from(document.querySelectorAll('.card h2')).find(function(x){return x.textContent.trim()==='Future Statistics'});if(!h)return;var card=h.parentElement;h.textContent='Career Statistics';card.querySelector('p').textContent='Career totals from data/career.json; updated when career data changes.';var items=['High Game: '+p.highGame,'High Series: '+p.highSeries,'Strike / Game: '+Number(p.strikePerGame).toFixed(2),'Spare / Game: '+Number(p.sparePerGame).toFixed(2),'Career Strikes: '+p.strikes,'Career Spares: '+p.spares,'200 Game Club: '+p.games200,'500 Series Club: '+p.series500,'600 Series Club: '+p.series600,'700 Series Club: '+p.series700];var ul=card.querySelector('ul');ul.replaceChildren();items.forEach(function(s){var li=document.createElement('li');li.textContent=s;ul.appendChild(li)});Array.from(document.querySelectorAll('.card p')).forEach(function(el){if(el.textContent.includes('Career statistics will be added'))el.textContent='Career statistics are loaded from data/career.json.'})}).catch(function(e){console.error(e)})}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',update);else update()})();</script>
             </div>
 
         </div>
